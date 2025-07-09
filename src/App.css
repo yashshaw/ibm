@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  /* themes: dark --default, light --prefersdark; */
+  /* themes: all; */
+  themes: light --default, light --prefersdark;
+}
+
+
+/* Hide number input spinners in Chrome, Safari, Edge */
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide number input spinners in Firefox */
+.no-spinner {
+  -moz-appearance: textfield;
+}
+
